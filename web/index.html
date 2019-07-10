@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Estilo  CSS -->
+        <style>
+
+
+        </style>
+        <title>Registrar usuario</title>
+    </head>
+    <body>
+
+        <section class=" container border border-primary col-6 ">  
+            <h1>Registrar</h1>   
+
+            <form class="needs-validation" action="ingresar.jsp" method="post" novalidate >
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="">codigo del Articulo</label>
+      <input type="text" class="form-control" name="articulo" placeholder="Articulo" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+      <div class="form-group col-md-6 mb-3">
+    <label for="">Categoria</label>
+    <select class="form-control" name="select">
+      <option>Hogar</option>
+      <option>Cocina</option>
+      <option>Baños</option>
+      <option>Mebles</option>
+    </select>
+  </div>
+    <div class="col-md-6 mb-3">
+      <label for="">Nombre</label>
+      <input type="text" class="form-control" name="nombre" placeholder="nombre" value="" required>
+      <div class="valid-feedback">  
+        Looks good!
+      </div>
+    </div>
+      
+      <div class="col-md-2 mb-6">
+      <label for="">Existencia</label>
+      <input type="text" class="form-control" name="existencia" placeholder="$" required>
+      <div class="invalid-feedback">
+        invalida.
+      </div>
+    </div>
+            <div class="col-md-3 mb-4">
+      <label for="">Precio unitario</label>
+      <input type="text" class="form-control" name="precio" placeholder="$" required>
+      <div class="invalid-feedback">
+        invalida.
+      </div>
+    </div>
+     <div class="form-row col-md-3 mb-4">
+      <label for="">Costo unitario</label>
+      <input type="text" class="form-control" name="costo" placeholder="$" required>
+      <div class="invalid-feedback">
+        invalida.
+      </div>
+    </div>
+   </div>
+      <button  type="submit" class="btn btn-primary">Guardar</button>
+      
+            </form>
+            <form action="listar.jsp" method="post">
+          <button type="submit"  class="btn btn-link">Ver lista </button>
+      </form>   
+        </section>
+      
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
